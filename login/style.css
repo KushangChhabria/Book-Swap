@@ -199,7 +199,6 @@ button:hover {
     color: #111;
     text-decoration: underline;
     transition: color 0.3s;
-    cursor: none;
 }
 
 .signup-link:hover {
