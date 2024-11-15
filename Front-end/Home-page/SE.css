@@ -185,10 +185,6 @@ body {
   background: #f0f0f0;
 }
 
-.features {
-  background: #e0e0e0;
-}
-
 .cta {
   background: #3a3a3a;
   color: #fff;
@@ -256,4 +252,64 @@ input[type="radio"]:checked {
 
 input[type="radio"]:checked + label {
   color: #000b58;
+}
+
+/* ----------------------------------------------------------------- */
+/* Our Team */
+
+/* Features Section Styling */
+
+.features {
+  background: #fff;
+  padding: 40px;
+}
+
+.features h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Team Members Grid */
+
+.team-grid {
+  display: grid;
+  margin-left: 10px;
+  margin-right: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+.team-member {
+  text-align: center;
+  background: #caba9c;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+.team-member img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 25px;
+  margin: 10px 0 5px;
+  color: #102820;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #102820;
 }
