@@ -185,10 +185,6 @@ body {
   background: #f0f0f0;
 }
 
-.features {
-  background: #e0e0e0;
-}
-
 .cta {
   background: #3a3a3a;
   color: #fff;
@@ -257,108 +253,63 @@ input[type="radio"]:checked {
 input[type="radio"]:checked + label {
   color: #000b58;
 }
-/* Footer Styling */
-.footer {
-    padding: 50px 20px;
-    background: #f0f0f0;
-    color: #fff;
-    font-family: Arial, sans-serif;
-  }
-  
-  .footer .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer .box {
-    flex: 1;
-    min-width: 250px;
-    margin: 15px;
-    text-align: left;
-  }
-  
-  .footer .box h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: #340dc0; /* Highlight color for headings */
-    border-bottom: 2px solid #e1490d; /* Border for emphasis */
-    padding-bottom: 8px;
-  }
-  
-  .footer .box a {
-    display: block;
-    font-size: 16px;
-    color: #100f0f;
-    text-decoration: none;
-    margin: 8px 0;
-    transition: color 0.3s;
-  }
-  
-  .footer .box a i {
-    margin-right: 10px;
-    color: #0dc02e; /* Icon color */
-  }
-  
-  .footer .box a:hover {
-    color: #340dc0;/* Hover color for links */
-  }
-  
-  .footer .box p {
-    font-size: 16px;
-    color: #100f0f;
-    margin: 10px 0;
-  }
-  
-  /* Social Media Icons */
-  .footer .share {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .footer .share a {
-    color: #100f0f;
-    font-size: 20px;
-    text-decoration: none;
-    transition: color 0.3s;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 50%;
-  }
-  
-  .footer .share a:hover {
-    color: #ffdd57; /* Hover color for social icons */
-    border-color: #ffdd57;
-  }
-  
-  /* Footer Bottom Bar */
-  .footer-bottom {
-    text-align: center;
-    padding: 10px;
-    background-color: #111;
-    color: #15c438;
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  
-  .footer-bottom p {
-    margin: 0;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .footer .box-container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .footer .box {
-      margin: 15px 0;
-    }
-  }
-  
+
+/* ----------------------------------------------------------------- */
+/* Our Team */
+
+/* Features Section Styling */
+
+.features {
+  background: #fff;
+  padding: 40px;
+}
+
+.features h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Team Members Grid */
+
+.team-grid {
+  display: grid;
+  margin-left: 10px;
+  margin-right: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+.team-member {
+  text-align: center;
+  background: #caba9c;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+.team-member img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 25px;
+  margin: 10px 0 5px;
+  color: #102820;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #102820;
+}
