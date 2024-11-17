@@ -36,6 +36,22 @@ mongoose.connect(process.env.MONGODB_URI, {
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('MongoDB connection error:', err));
 
+app.get('/', (req, res) => {
+    res.status(200).json({
+        message: 'Welcome to the Book Swap App!',
+        version: '1.0.0',
+        routes: {
+            userRoutes: '/api/user',
+            publisherRoutes: '/api/publisher',
+            authRoutes: '/api/auth',
+            bookRoutes: '/api/v1/books',
+            cartRoutes: '/api/v1/cart',
+            orderRoutes: '/api/v1/orders',
+            reviewRoutes: '/api/v1/reviews',
+        },
+        documentation: 'https://your-api-documentation-link.com' // Add a link to your API documentation if available
+    });
+});
 // Routes
 app.use('/api/user', userRoutes);
 app.use('/api/publisher', publisherRoutes);
