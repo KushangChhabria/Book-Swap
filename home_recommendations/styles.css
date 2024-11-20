@@ -281,9 +281,7 @@ input[type="radio"]:checked + label {
   transition: transform 0.2s ease;
 }
 
-.totalpanel:hover {
-  transform: translateY(-5px); /* Slight lift effect on hover */
-}
+
 
 .panelheader {
   display: flex;
@@ -312,18 +310,8 @@ input[type="radio"]:checked + label {
   display: flex;
   align-items: center;
   gap: 20px;
+  overflow: h;
 }
-
-/* .book {
-  background-color: #fafafa; 
-  border-radius: 10px;
-  padding: 15px;
-  width: 180px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  cursor: pointer;
-} */
 
 .book:hover {
   transform: scale(1.07); 
@@ -401,11 +389,6 @@ input[type="radio"]:checked + label {
   margin-top: 40px;
 }
 
-.book:hover {
-  transform: scale(1.07);
-  background-color: #eae3db;
-}
-
 .book .details {
   display: none;
   margin-top: 10px;
@@ -428,3 +411,29 @@ input[type="radio"]:checked + label {
   width: 15px;
   height: 15px;
 }
+
+.scroller{
+  width: 1050px;
+  height: 400px;
+  overflow: hidden;
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+@keyframes scroll{
+  to{
+    transform: translate(calc(-150% + 0.5rem));
+  }
+}
+
+.scroller__inner{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  animation: scroll 25s linear infinite;
+  /* border: 3px solid lime; */
+}
+
+.scroller__inner:hover{
+  animation-play-state: paused;
+}
+
