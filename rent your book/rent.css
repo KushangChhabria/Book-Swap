@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('rent.png') no-repeat center center fixed;
+    background: url('background image.png') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     margin: 0;
@@ -13,6 +13,7 @@ body {
 
 .container {
     background: #ffffff;
+    background-color: #f5efe6;
     padding: 20px 30px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
