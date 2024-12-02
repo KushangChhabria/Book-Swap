@@ -75,8 +75,7 @@ https://github.com/KushangChhabria/G20_SE.git
 
 
 
-Video
-
+https://drive.google.com/file/d/1gB89Ya6sh7em4uAGquowdC_HtV87D8nb/view
 
 
 
