@@ -33,4 +33,53 @@ Discover the easiest way to buy, sell, or rent books online. At BookVerse, we be
 - Version Control: Git & GitHub
 - Testing: Selenium IDE, Jmeter, Sauce Lab, Uptime Robot, Django, (In-built Framework)
 
+ ## Clone the Repository
+   bash
+https://github.com/KushangChhabria/G20_SE.git
+   
+
+
+
+## Running the Application 🌐
+
+1. *Start the Development Server*
+   bash
+   python manage.py runserver
+   
+   Access the application at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) on your browser.
+
+2. *Run Tests*
+   bash
+   python manage.py test core
+   
+   Ensure all tests pass for optimal functionality.
+
+
+### Contributors 🤝
+- Krushnadev Rayjada
+- Varnika Chhawcharia
+- Prerak Dave
+- Shourya Nahar
+- Kushang Chhabaria
+- Yash Mehta
+- Keyur Padia
+- Maitrey Pandya
+- Shashwat Menon
+- Ansh Garg
+
+
+
+
+## Preview 📸
+
+
+
+Video
+
+
+
+
+   
+## Deployment link
+
 
