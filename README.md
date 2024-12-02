@@ -56,7 +56,7 @@ https://github.com/KushangChhabria/G20_SE.git
    Ensure all tests pass for optimal functionality.
 
 
-### Contributors 🤝
+### Contributors 
 - Krushnadev Rayjada
 - Varnika Chhawcharia
 - Prerak Dave
@@ -71,7 +71,7 @@ https://github.com/KushangChhabria/G20_SE.git
 
 
 
-## Preview 📸
+## Preview 
 
 
 
