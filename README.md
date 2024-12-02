@@ -82,5 +82,6 @@ Video
 
    
 ## Deployment link
-
+The link is given as below :
+https://book-rent-try.onrender.com/ 
 
