@@ -1,11 +1,12 @@
 <div align="center">
    
-# BookVerse
-
+<img src="icon main jpg.jpg">
 
 </div>
 
 ## Description 
+
+
 
 Discover the easiest way to buy, sell, or rent books online. At BookVerse, we believe every book deserves a second life and every reader a chance to explore stories without limits. Whether you're a student searching for affordable textbooks, a passionate reader looking for new adventures, or someone with a shelf of books ready for a new home, BookVerse connects you with a thriving community of book lovers.
 
