@@ -28,32 +28,17 @@ Discover the easiest way to buy, sell, or rent books online. At BookVerse, we be
 
 
 
-- Backend: 
+- Backend: NodeJS, ExpressJS
 - Database: MongoDB
-- Frontend: HTML, CSS, Javascript, React JS
+- Frontend: CSS, Javascript, React JS
 - Version Control: Git & GitHub
-- Testing: Selenium IDE, Jmeter, Sauce Lab, Uptime Robot, Django, (In-built Framework)
-
+- Testing: Selenium IDE, Jmeter, Jest, Uptime Robot, ImmuniWeb, Pentest-tools
  ## Clone the Repository
    bash
 https://github.com/KushangChhabria/G20_SE.git
    
 
 
-
-## Running the Application 🌐
-
-1. *Start the Development Server*
-   bash
-   python manage.py runserver
-   
-   Access the application at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) on your browser.
-
-2. *Run Tests*
-   bash
-   python manage.py test core
-   
-   Ensure all tests pass for optimal functionality.
 
 
 ### Contributors 
